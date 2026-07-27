@@ -2218,7 +2218,15 @@ select.form-campo option {
     gap: 8px;
 }
 
-/* continuação .footer__link */
+.footer__link-p {
+    font-size: .82rem;
+    color: rgba(255, 255, 255, .55);
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
 .footer__link {
     font-size: .82rem;
     color: rgba(255, 255, 255, .55);
