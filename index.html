@@ -3,29 +3,53 @@
 
 <head>
     <!-- ============================================
-       META TAGS — DR Danielle Silva Advogada Schema.org V30.0 · 2026-03-19
+       META TAGS — DR Danielle Silva Advogada Schema.org V30.1 · 2026-09-21
     ============================================= -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <meta name="author"
         content="Diego Francisco da Silva - @dev.software.web - https://diegofranciscodasilva.github.io/dev-software-web/" />
     <meta name="author" content="Dra. Danielle Silva - Advocacia" />
+
     <meta name="description"
-        content="Dra. Danielle Silva - Advocacia em Jarinú - SP, Consultoria jurídica especializada, atendimento humanizado e soluções legais eficientes para você." />
+        content="Dra. Danielle Silva - Advocacia em Jarinú, SP. Consultoria jurídica especializada, atendimento humanizado e soluções legais eficientes em Direito de Família, Trabalhista, Civil, Consumidor e Previdenciário." />
+
     <meta name="keywords"
-        content="advogada, advocacia, Jarinú - SP, Dra. Danielle Silva - Advogada, consultoria jurídica, direito, advogada em Jarinú, escritório advocacia em Jarinú" />
-    <meta name="robots" content="index, follow" />
-    <title>Dra. Danielle Silva | Advogada</title>
+        content="advogada, advocacia, Jarinú SP, Dra. Danielle Silva Advogada, consultoria jurídica, direito de família, direito trabalhista, direito civil, direito do consumidor, direito previdenciário, escritório de advocacia em Jarinú" />
+
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="language" content="Portuguese" />
+
+    <meta name="geo.region" content="BR-SP" />
+    <meta name="geo.placename" content="Jarinú" />
+
+    <title>Dra. Danielle Silva | Advogada em Jarinú - SP</title>
     <link rel="canonical" href="https://diegofranciscodasilva.github.io/Dr_DanielleSilva-Advogada/" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Dra. Danielle Silva | Advogada" />
-    <meta property="og:description"
-        content="Escritório de advocacia em Jarinú, SP. Atendimento humanizado, ética e soluções jurídicas eficientes." />
-    <meta property="og:image" content="./assets/images/dradanielledark.png" />
-    <meta property="og:url" content="https://diegofranciscodasilva.github.io/Dr_DanielleSilva-Advogada/" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Dra. Danielle Silva Advogada" />
     <meta property="og:locale" content="pt_BR" />
+    <meta property="og:url" content="https://diegofranciscodasilva.github.io/Dr_DanielleSilva-Advogada/" />
+    <meta property="og:title" content="Dra. Danielle Silva | Advogada em Jarinú - SP" />
+    <meta property="og:description"
+        content="Escritório de advocacia em Jarinú, SP. Atendimento humanizado, ética e soluções jurídicas eficientes em diversas áreas do Direito." />
+    <meta property="og:image"
+        content="https://diegofranciscodasilva.github.io/Dr_DanielleSilva-Advogada/assets/images/dradanielledark.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Dra. Danielle Silva, advogada em Jarinú - SP" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dra. Danielle Silva | Advogada em Jarinú - SP" />
+    <meta name="twitter:description"
+        content="Consultoria jurídica especializada, atendimento humanizado e soluções legais eficientes em Jarinú e região." />
+    <meta name="twitter:image"
+        content="https://diegofranciscodasilva.github.io/Dr_DanielleSilva-Advogada/assets/images/dradanielledark.png" />
+    <meta name="twitter:image:alt" content="Dra. Danielle Silva, advogada em Jarinú - SP" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/balanca1.png" />
@@ -34,11 +58,11 @@
     <link rel="manifest" href="site.webmanifest" />
     <meta name="theme-color" content="#C9A84C" />
 
-    <!-- Remix Icon 4.6.0 — visual leve/moderno/minimalista (ideal para advocacia sofisticada) -->
+    <!-- Remix Icon 4.6.0 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
         crossorigin="anonymous" />
 
-    <!-- Google Fonts — Cormorant Garamond (títulos elegantes) + Inter (corpo) -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -47,6 +71,81 @@
 
     <!-- Stylesheet principal -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- ============================================
+       DADOS ESTRUTURADOS (JSON-LD) — Schema.org
+       Atualizar OAB e ano de fundação quando disponíveis
+    ============================================= -->
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Attorney",
+            "@id": "https://diegofranciscodasilva.github.io/Dr_DanielleSilva-Advogada/#attorney",
+            "name": "Dra. Danielle Silva",
+            "hasCredential": {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "OAB/SP nº SEU_NUMERO"
+            },
+            "url": "https://diegofranciscodasilva.github.io/Dr_DanielleSilva-Advogada/",
+            "image": "https://diegofranciscodasilva.github.io/Dr_DanielleSilva-Advogada/assets/images/dradanielledark.png",
+            "description": "Advogada atuante em Jarinú e região, com atendimento humanizado em Direito de Família, Trabalhista, Civil, do Consumidor, Previdenciário e Consultoria Jurídica.",
+            "telephone": "+5511997285280",
+            "email": "advocacia_drdaniellesilva@outlook.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Praça Nossa Senhora do Carmo, 08, Centro",
+                "addressLocality": "Jarinú",
+                "addressRegion": "SP",
+                "postalCode": "13240-041",
+                "addressCountry": "BR"
+            },
+            "areaServed": {
+                "@type": "Place",
+                "name": "Jarinú e região"
+            },
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "17:00"
+            },
+            "knowsAbout": [
+                "Direito de Família",
+                "Direito Trabalhista",
+                "Direito Civil",
+                "Direito do Consumidor",
+                "Direito Previdenciário",
+                "Consultoria Jurídica"
+            ],
+            "sameAs": [
+                "https://www.instagram.com/adv.daniellesilva",
+                "https://www.facebook.com/people/Danielle-Silva-Advocacia/61584158155977/",
+                "https://wa.me/5511997285280"
+            ],
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+5511997285280",
+                "contactType": "customer service",
+                "areaServed": "Jarinú e região",
+                "availableLanguage": "pt-BR"
+            }
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://diegofranciscodasilva.github.io/Dr_DanielleSilva-Advogada/#website",
+            "url": "https://diegofranciscodasilva.github.io/Dr_DanielleSilva-Advogada/",
+            "name": "Dra. Danielle Silva Advogada",
+            "description": "Site institucional da Dra. Danielle Silva, advogada em Jarinú - SP.",
+            "publisher": {
+                "@id": "https://diegofranciscodasilva.github.io/Dr_DanielleSilva-Advogada/#attorney"
+            },
+            "inLanguage": "pt-BR"
+        }
+    ]
+}
+</script>
 
 </head>
 
