@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://diegofranciscodasilva.github.io/Dr_DanielleSilva-Advogada/sitemap.xml
